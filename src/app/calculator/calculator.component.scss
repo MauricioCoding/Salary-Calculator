@@ -2,6 +2,10 @@
   padding-top: 20%;
   padding-left: 10%;
 }
+.all-content{
+  width: 100%;
+  margin-left: 10%;
+}
 h5{
   font-size: 18px;
   font-family: 'Poppins-bold';
@@ -302,6 +306,14 @@ row {
     right: 10px;
     bottom: 10px;
 
+  }
+
+  h5{
+    font-size: 14px;
+    font-family: 'Poppins-bold';
+  }
+  p, h4, h6{
+    font-family: 'Poppins-Medium';
   }
 }
 

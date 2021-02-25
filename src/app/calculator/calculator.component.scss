@@ -1,0 +1,314 @@
+.wrapper {
+  padding-top: 20%;
+  padding-left: 10%;
+}
+h5{
+  font-size: 18px;
+  font-family: 'Poppins-bold';
+}
+p, h4, h6{
+  font-family: 'Poppins-Medium';
+}
+.content {
+  width: 590px;
+  right: 15%;
+  bottom: 10%;
+}
+.content-padded {
+  padding: 10px;
+  width: 690px;
+  right: 15%;
+  bottom: 10%;
+  top: 38px;
+}
+
+div.content-padded > h5 {
+  margin-bottom: 10px;
+
+}
+input[type=text] {
+  width: 250px;
+  height: 45px;
+  border-radius: 10px;
+  margin: 8px;
+}
+
+input:disabled {
+  border: solid 1px #880000;
+  background-color: #ffffff;
+}
+h5, p, h4, h6 {
+  color: #ffffff
+}
+
+p {
+  margin-left: 17%;
+  padding-bottom: 20px;
+  position: relative;
+  bottom: 40px;
+
+}
+.text-title {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.input-icon-one input[type=text], .input-icon-two input[type=text], .input-icon-three input[type=text], .input-icon-four input[type=text] {
+  padding-left: 40px;
+}
+
+.input-icon-one {
+  position: relative;
+}
+
+.input-icon-two, .input-icon-three, .input-icon-four {
+  position: relative;
+  top: 25px;
+}
+.input-icon-four {
+  top: 35px;
+}
+.input-icon-one h4, .input-icon-two h4, .input-icon-three h4, .input-icon-four h4 {
+  margin-right: 8%;
+  position: relative;
+  padding-bottom: 5px;
+  padding-top: 4px;
+  width: 30px;
+  left: 12px;
+  bottom: 49px;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.icons {
+  background-color: #038C75;
+  width: 250px;
+  height: 65px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.icons-position {
+  position: relative;
+  margin-top: 13px;
+  margin-left: 25%;
+}
+
+.vl {
+  border-left: 2px solid #ffffff;
+  height: 40px;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+
+}
+
+row {
+  margin-top: 0;
+}
+@media screen and (max-width: 2200px) {
+  .wrapper {
+    padding-top: 20%;
+    padding-left: 10%;
+  }
+  h5{
+    font-size: 18px;
+    font-family: 'Poppins-bold';
+  }
+  p, h4, h6{
+    font-family: 'Poppins-Medium';
+  }
+  .content {
+    width: 590px;
+    right: 15%;
+    bottom: 10%;
+  }
+  .content-padded {
+    padding: 10px;
+    width: 690px;
+    right: 15%;
+    bottom: 10%;
+    top: 38px;
+  }
+
+  div.content-padded > h5 {
+    margin-bottom: 10px;
+
+  }
+  input[type=text] {
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 8px;
+  }
+
+  input:disabled {
+    border: solid 1px #880000;
+    background-color: #ffffff;
+  }
+  h5, p, h4, h6 {
+    color: #ffffff
+  }
+
+  p {
+    margin-left: 17%;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 40px;
+
+  }
+  .text-title {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .input-icon-one input[type=text], .input-icon-two input[type=text], .input-icon-three input[type=text], .input-icon-four input[type=text] {
+    padding-left: 40px;
+  }
+
+  .input-icon-one {
+    position: relative;
+  }
+
+  .input-icon-two, .input-icon-three, .input-icon-four {
+    position: relative;
+    top: 25px;
+  }
+  .input-icon-four {
+    top: 35px;
+  }
+  .input-icon-one h4, .input-icon-two h4, .input-icon-three h4, .input-icon-four h4 {
+    margin-right: 8%;
+    position: relative;
+    padding-bottom: 5px;
+    padding-top: 4px;
+    width: 30px;
+    left: 12px;
+    bottom: 49px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .icons {
+    background-color: #038C75;
+    width: 250px;
+    height: 65px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .icons-position {
+    position: relative;
+    margin-top: 13px;
+    margin-left: 25%;
+  }
+
+  .vl {
+    border-left: 2px solid #ffffff;
+    height: 40px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+
+  }
+
+  row {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 720px){
+  .wrapper {
+    padding-top: 20%;
+    padding-left: 10%;
+    margin-left: 50%;
+  }
+  .content {
+    margin-left: 50%;
+  }
+  .content-padded {
+    margin-left: 50%;
+  }
+
+  div.content-padded > h5 {
+    margin-bottom: 10px;
+
+  }
+  input[type=text] {
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 8px;
+  }
+
+  input:disabled {
+    border: solid 1px #880000;
+    background-color: #ffffff;
+  }
+  h5, p, h4, h6 {
+    color: #ffffff
+  }
+
+  p {
+ margin-left: 10%;
+  }
+  .text-title {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .input-icon-one input[type=text], .input-icon-two input[type=text], .input-icon-three input[type=text], .input-icon-four input[type=text] {
+    padding-left: 40px;
+  }
+
+  .input-icon-one {
+    position: relative;
+  }
+
+  .input-icon-two, .input-icon-three, .input-icon-four {
+    position: relative;
+    top: 25px;
+  }
+  .input-icon-four {
+    top: 35px;
+  }
+  .input-icon-one h4, .input-icon-two h4, .input-icon-three h4, .input-icon-four h4 {
+    margin-right: 8%;
+    position: relative;
+    padding-bottom: 5px;
+    padding-top: 4px;
+    width: 30px;
+    left: 12px;
+    bottom: 49px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .icons {
+    background-color: #038C75;
+    width: 250px;
+    height: 65px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .icons-position {
+    position: relative;
+    margin-top: 13px;
+    margin-left: 25%;
+  }
+  .vl {
+    border-left: 2px solid #ffffff;
+    height: 40px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+
+  }
+}
+
+
+
+
+
+
+
+

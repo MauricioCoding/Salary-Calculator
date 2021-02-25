@@ -1,0 +1,271 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@font-face{
+  font-family: 'Poppins-bold';
+  src: local('Poppins-Bold') , url("assets/poppins/Poppins-Bold.ttf");
+}
+@font-face{
+  font-family: 'Poppins-Medium';
+  src: local('Poppins-Medium') , url("assets/poppins/Poppins-Medium.ttf");
+}
+
+.wrapper{
+  background-image: url("assets/calculator-elements/cuadro-fondo-titulo.png") ;
+  width: 1400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.image-one{
+  background-image: url("assets/calculator-elements/cuadro_1.png") ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  place-items: center;
+  width: 482px;
+  height: 212px;
+}
+.image-two{
+  background-image: url("assets/calculator-elements/cuadro_2.png") ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  place-items: center;
+  width: 482px;
+  height: 212px;
+}
+.image-three{
+  background-image: url("assets/calculator-elements/cuadro_3.png") ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  place-items: center;
+  width: 482px;
+  height: 212px;
+}
+.image-four{
+  background-image: url("assets/calculator-elements/cuadro_4.png") ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  place-items: center;
+  width: 482px;
+  height: 212px;
+}
+label{
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 50px;}
+
+.input-icon-one h4{
+  background-image: url("assets/calculator-elements/cuadro_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.input-icon-two h4{
+  background-image: url("assets/calculator-elements/cuadro_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.input-icon-three h4{
+  background-image: url("assets/calculator-elements/cuadro_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.input-icon-four h4{
+  background-image: url("assets/calculator-elements/cuadro_4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.whats-app-icon{
+  float: left;
+  background-image: url("assets/calculator-elements/whatsapp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 22px;
+  width: 22px;
+}
+.facebook-icon{
+  float: left;
+  background-image: url("assets/calculator-elements/facebook.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 22px;
+  width: 20px;
+}
+.twitter-icon{
+  float: left;
+  background-image: url("assets/calculator-elements/twitter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 22px;
+  width: 27px;
+  margin-bottom: 35%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 2200px) {
+  .wrapper{
+    background-image: url("assets/calculator-elements/cuadro-fondo-titulo.png") ;
+    width: 1400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+  }
+
+  .image-one{
+    background-image: url("assets/calculator-elements/cuadro_1.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    width: 482px;
+    height: 212px;
+  }
+  .image-two{
+    background-image: url("assets/calculator-elements/cuadro_2.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    width: 482px;
+    height: 212px;
+  }
+  .image-three{
+    background-image: url("assets/calculator-elements/cuadro_3.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    width: 482px;
+    height: 212px;
+  }
+  .image-four{
+    background-image: url("assets/calculator-elements/cuadro_4.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    width: 482px;
+    height: 212px;
+  }
+  label{
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 50px;}
+
+  .input-icon-one h4{
+    background-image: url("assets/calculator-elements/cuadro_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .input-icon-two h4{
+    background-image: url("assets/calculator-elements/cuadro_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .input-icon-three h4{
+    background-image: url("assets/calculator-elements/cuadro_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .input-icon-four h4{
+    background-image: url("assets/calculator-elements/cuadro_4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .whats-app-icon{
+    float: left;
+    background-image: url("assets/calculator-elements/whatsapp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22px;
+    width: 22px;
+  }
+  .facebook-icon{
+    float: left;
+    background-image: url("assets/calculator-elements/facebook.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22px;
+    width: 20px;
+  }
+  .twitter-icon{
+    float: left;
+    background-image: url("assets/calculator-elements/twitter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22px;
+    width: 27px;
+    margin-bottom: 35%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+}
+
+@media screen and (max-width: 720px){
+  .wrapper{
+    background-image: url("assets/calculator-elements/cuadro-fondo.png") ;
+    width: 760px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+  }
+
+  .input-icon-one h4{
+    background-image: url("assets/calculator-elements/cuadro_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .input-icon-two h4{
+    background-image: url("assets/calculator-elements/cuadro_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .input-icon-three h4{
+    background-image: url("assets/calculator-elements/cuadro_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .input-icon-four h4{
+    background-image: url("assets/calculator-elements/cuadro_4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .whats-app-icon{
+    float: left;
+    background-image: url("assets/calculator-elements/whatsapp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22px;
+    width: 22px;
+  }
+  .facebook-icon{
+    float: left;
+    background-image: url("assets/calculator-elements/facebook.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22px;
+    width: 20px;
+  }
+  .twitter-icon{
+    float: left;
+    background-image: url("assets/calculator-elements/twitter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22px;
+    width: 27px;
+    margin-bottom: 35%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+

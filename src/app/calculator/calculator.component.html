@@ -1,0 +1,67 @@
+<div class="wrapper">
+  <div class="row">
+    <div class=" image-one">
+      <div class="col-md-6 content-padded">
+        <div class="input-icon-one">
+          <h5>¿Cuánto es su salario mensual?</h5>
+        <input  placeholder="{{placeholder}}" type="text" [(ngModel)]="salary" (ngModelChange)="onSubmit(salary)" >
+        <h4 class="colon-simbol">₡</h4>
+          <p>Salario sin rebajos</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="image-two">
+      <div class="col-md-6 content ">
+        <div class="input-icon-two">
+          <h5>Su pago anual de impuesto al salario será:</h5>
+          <input type="text" [value]="roundGlobalTax" disabled="disabled">
+          <h4 class="colon-simbol">₡</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="image-three">
+      <div class="col-md-6 content ">
+        <div class="input-icon-three">
+          <h5>Su pago anual de impuesto al salario es:</h5>
+          <input  type="text" [value]="roundCurrentTax" disabled="disabled">
+          <h4 class="colon-simbol">₡</h4>
+        </div>
+    </div>
+    </div>
+    <div class="image-four">
+      <div class="col-md-6 content">
+        <div class="input-icon-four">
+          <h5>Impuesto adicional al año:</h5>
+          <input type="text" [value]="plusTax" disabled="disabled">
+          <h4 class="colon-simbol">₡</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="icons">
+    <h6>COMPARTIR HERRAMIENTA</h6>
+    <div class="icons-position">
+      <div class="facebook-icon">
+        <a href=""></a>
+      </div>
+
+      <div class="twitter-icon">
+        <div class="vl"></div>
+        <a href=""></a>
+      </div>
+
+      <div class="whats-app-icon">
+        <div class="vl"></div>
+        <a href=""></a> <a href=""></a>
+      </div>
+    </div>
+  </div>-->
+</div>
+
+
+
+
